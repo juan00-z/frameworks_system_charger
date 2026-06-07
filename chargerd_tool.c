@@ -284,7 +284,7 @@ int main(int argc, char* argv[])
         fn = stress_supply_test;
         break;
     default:
-        printf("unkown cmd\n");
+        printf("unknown cmd\n");
         usage();
         ret = -EINVAL;
         break;
